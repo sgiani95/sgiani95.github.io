@@ -1,4 +1,4 @@
-# sgiani95.github.io
+# sgiani95.website
 
 - 👋 Hi, I’m @sgiani95
 - 👀 I’m interested in topics around workplace safety
