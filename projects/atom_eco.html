@@ -19,7 +19,7 @@
 
 				<!-- Header -->
 					<header id="header">
-						<a href="index.html" class="logo"><strong>Webpage</strong> <span>by sgiani</span></a>
+						<a href="../index.html" class="logo"><strong>Webpage</strong> <span>by sgiani</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -44,17 +44,110 @@
 							<section id="one">
 								<div class="inner">
 									<header class="major">
-										<h1>Generic</h1>
+										<h1>Atom Economy</h1>
 									</header>
-									<span class="image main"><img src="images/pic11.jpg" alt="" /></span>
-									<p>Donec eget ex magna. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fergiat. Pellentesque in mi eu massa lacinia malesuada et a elit. Donec urna ex, lacinia in purus ac, pretium pulvinar mauris. Curabitur sapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit.</p>
-									<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Etiam tristique libero eu nibh porttitor fermentum. Nullam venenatis erat id vehicula viverra. Nunc ultrices eros ut ultricies condimentum. Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in lectus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. In non lorem sit amet elit placerat maximus. Pellentesque aliquam maximus risus, vel sed vehicula.</p>
-									<p>Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque venenatis dolor imperdiet dolor mattis sagittis. Praesent rutrum sem diam, vitae egestas enim auctor sit amet. Pellentesque leo mauris, consectetur id ipsum sit amet, fersapien risus, commodo eget turpis at, elementum convallis elit. Pellentesque enim turpis, hendrerit tristique lorem ipsum dolor.</p>
+
+                                    <p><b>What is Atom Economy?</b></p>
+
+									<p>Atom economy is a key metric in green chemistry, introduced by Barry Trost
+                                        to quantify how efficiently a chemical reaction utilizes its starting materials.
+                                        A high atom economy means fewer atoms are wasted as byproducts,
+                                        reducing environmental impact and improving resource efficiency.
+                                        Traditionally calculated manually, our project automates this process,
+                                        making it faster and more accessible for researchers, educators, and industry professionals.</p>
+
+                                    <div class="table-wrapper">
+									    <table>
+										    <thead>
+										    	<tr>
+											    	<th>Example of Aspirine Synthesis Pathways</th>
+											    	<th></th>
+											    </tr>
+										    </thead>
+										    <tbody>
+										    	<tr>
+										    		<td>I. Esterification</td>
+										    		<td><img src="../images/projects/atom_eco/I.png" alt="" /></td>
+										    	</tr>
+                                                <tr>
+										    		<td>II. Via Acetyl chloride</td>
+										    		<td><img src="../images/projects/atom_eco/II.png" alt="" /></td>
+										    	</tr>
+                                                <tr>
+										    		<td>III. Kolbe-Schmmitt reaction followed by acetylation</td>
+										    		<td><img src="../images/projects/atom_eco/III.png" alt="" /></td>
+										    	</tr>
+                                                <tr>
+										    		<td>IV. Acetylation with acetic acid</td>
+										    		<td><img src="../images/projects/atom_eco/IV.png" alt="" /></td>
+										    	</tr>
+										    </tbody>
+												<!-- <td colspan="2"></td> -->
+									    </table>
+								    </div>
+
+									<span class="image main"><img src="../images/projects/atom_eco/plot.png" alt="" /></span>
+
+                                </div>
+							</section>
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+
+                                    <b>The Approach</b>
+
+                                    <p>We have developed a computational framework that leverages reaction SMILES: a
+                                        text-based representation of chemical reactions, to calculate atom economy
+                                        with precision. By parsing SMILES strings, our tool identifies reactants,
+                                        products, and byproducts, then computes the percentage of atoms from reactants
+                                        incorporated into the desired product. This method eliminates tedious manual
+                                        calculations and enables high-throughput analysis of complex reactions.</p>
+                                    <p>Key features of our approach:</p>
+                                    -- <b>Automation:</b> Processes large datasets of reactions quickly using Python-based algorithms.</br>
+                                    -- <b>Accuracy:</b> Validates atom economy calculations against established chemical principles.</br>
+                                    -- <b>Scalability:</b> Applicable to both small-scale educational exercises and large-scale industrial applications.</br>
+                                    -- <b>Open Access:</b> Designed to support researchers and educators in adopting sustainable practices.</p>
+								</div>
+							</section>
+                        
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+
+                                    <b>Why It Matters</b>
+
+                                    <p>In a world increasingly focused on sustainability, optimizing chemical processes is critical. Our tool empowers chemists to:</p>
+                                    -- Evaluate and compare the efficiency of synthetic routes.</br>
+                                    -- Design greener reactions with minimal waste.</br>
+                                    -- Educate students on sustainable chemistry principles with real-world applications.</br>
+								</div>
+							</section>
+
+						<!-- One -->
+							<section id="one">
+								<div class="inner">
+
+                                    <b>Get Involved</b>
+
+                                    <p>-- Try It Out: access it directly on mybinder.org</p>
+										<p><a href="https://mybinder.org/v2/gh/sgiani95/rxnSMILES4AtomEcoACSJChemEduc/HEAD" class="image">
+											<img src="https://mybinder.org/badge_logo.svg" alt="" data-position="center center" />
+										</a></p>
+                                    -- Collaborate: contribute to tool development or share feedback.</br>
+                                    -- Learn More: explore our publications for in-depth methodology and case studies:</p>
+
+										<ul class="actions">
+											<li><a href="https://doi.org/10.26434/chemrxiv-2024-rxx1g-v3" class="button">Quantitative Analysis of Atom Economy Using Reaction SMILES: A Computational Approach [ChemRxiv]</a></li>
+										</ul>
+										<ul class="actions">
+											<li><a href="https://doi.org/10.1021/acs.jchemed.5c00296" class="button">Bridging Education and Process Design with Atom Economy via Reaction SMILES [J. Chem. Educ.]</a></li>
+										</ul>
+
 								</div>
 							</section>
 
 					</div>
-
 
 	</body>
 </html>
